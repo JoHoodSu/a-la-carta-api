@@ -1,6 +1,7 @@
 # a-la-carta-api
 API for managing the actions of the "A la Carta" application
 
+```mermaid
 erDiagram
     Categories {
         int id PK
@@ -74,3 +75,4 @@ erDiagram
     }
     Ingridients ||--|{ Order_Product_Ingredients : "1:N"
     Order_Products ||--|{ Order_Product_Ingredients : "1:N"
+```
